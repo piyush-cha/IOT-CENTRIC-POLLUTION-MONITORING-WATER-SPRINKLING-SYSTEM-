@@ -28,7 +28,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 const char* ssid = "yourwifiname";
 const char* password = "strongwifipassword";
-const char* host = "your cloud platform";
+const char* host = "thingworx.scet.com; //your cloud platform
 const int httpsPort = 80;
 
 const char Thing[] = "PM_SS";
